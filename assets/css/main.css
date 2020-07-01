@@ -108,7 +108,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		color: #6b7770;
 		margin: 0 0 0.5em 0;
 		line-height: 1.3;
@@ -2307,7 +2307,7 @@ input, select, textarea {
 		font-size: 2em;
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		padding: 2em 0;
 		background: #fff;
 		margin: 0 auto;
@@ -2478,7 +2478,7 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/0.jpg");
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
@@ -2488,7 +2488,7 @@ input, select, textarea {
 
 		#banner .content {
 			position: relative;
-			background-color: rgba(21, 28, 23, 0.85);
+			background-color: rgba(221, 247, 221, 0.692);
 			background-image: url("images/overlay.png"), url("images/highlight.png");
 			background-position: top left, center center;
 			background-size: auto, 100% 250%;
@@ -2508,10 +2508,11 @@ input, select, textarea {
 				display: block;
 				font-family: 'Open Sans Condensed', sans-serif;
 				font-weight: 700;
-				text-transform: uppercase;
+				/* text-transform: uppercase; */
 				color: #575d59;
 				font-size: 1.35em;
 				margin: 0 0 1.25em 0;
+				padding: 0 30px;
 			}
 
 			#banner .content .button {
@@ -2540,8 +2541,8 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #b1ddab;
-		border-bottom: solid 5px #c1cac5;
+		/* border-top: solid 5px #b1ddab; */
+		/* border-bottom: solid 5px #c1cac5; */
 		border-top-width: 35px;
 		border-bottom-width: 10px;
 		padding: 6em 0 6em 0;
@@ -3105,3 +3106,10 @@ input, select, textarea {
 			}
 
 	}
+
+
+ul.contact li a img {
+	display: block;
+	width: 48px;
+    height: 48px;
+}
